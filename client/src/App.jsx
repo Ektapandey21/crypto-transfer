@@ -6,7 +6,7 @@ const  App= ()=> {
         <Navbar/>
         <Welcome/>
         <iframe
-          src="https://example.com/chatbot" // Replace this with your actual embedded code URL
+          src="<iframe src='https://webchat.botframework.com/embed/chat8867-bot?s=YOUR_SECRET_HERE'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>" // Replace this with your actual embedded code URL
           width="100%"
           height="500px"
           style={{ border: 'none' }}
