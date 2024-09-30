@@ -9,12 +9,14 @@ import msalInstance from "./AuthConfig.js";
 import{TransactionProvider}from './context/TransactionContext';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <MsalProvider instance={msalInstance}>
+  
   <TransactionProvider>
   <React.StrictMode>
+  <MsalProvider instance={msalInstance}>
     <App />
+    </MsalProvider>
   </React.StrictMode>
   </TransactionProvider>
-  </MsalProvider>,
+  ,
   
 )
