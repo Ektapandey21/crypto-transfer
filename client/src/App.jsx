@@ -6,11 +6,9 @@ const  App= ()=> {
         <Navbar/>
         <Welcome/>
         <iframe
-           src="https://webchat.botframework.com/embed/chat8867-bot?s=zkKj0Zq5MIM.xGq0Nlc7tn8jXwGPA1kRnGkvDpvquqICUIb7IXYfnuo"
-          height="500px"
-          style={{ border: 'none' }}
-          allow="clipboard-write"
-        ></iframe>
+           src='https://webchat.botframework.com/embed/chat8867-bot?s=zkKj0Zq5MIM.FhfVG6kB4UejSRo_U68mkLy4B3g0UywIfr7Hx-KVG5k'  style='min-width: 400px; width: 100%; min-height: 500px;'>
+        
+        </iframe>
         
       </div>
       <Services/>
