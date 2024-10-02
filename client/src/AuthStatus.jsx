@@ -14,7 +14,7 @@ const AuthStatus = () => {
       {isAuthenticated ? (
         <p>Welcome {accounts[0].username}</p>
       ) : (
-        <p style={{ color: 'blue' }}>Please sign in</p>
+        <p>Please sign in</p>
       )}
     </div>
   );
